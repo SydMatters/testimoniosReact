@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body{
+
+  background-color: #252525;
+}
+
+.App{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contenedor-principal{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  max-width: 70em;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 3rem auto 3rem auto ;
+  color: white;
+}
